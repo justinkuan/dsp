@@ -47,7 +47,8 @@ import sklearn
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Python 3 because it makes the most sense.
+You have recommended it, it's been around long enough that it isn't too buggy, and jumping in it makese sense to use the latest.
 
 ### Q2. Which Python Version Installed   
 
@@ -55,7 +56,7 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+'Python 3.7.0'
 
  
 

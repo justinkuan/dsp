@@ -20,22 +20,34 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+'pwd' - print working directory
+'ls' - list all files and directories in the current working directory
+'cd' - change directory ('..' brings you to the parent directory, '/' to the root directory)
+'mkdir' - makes a directory
+'touch' - creates a new file inside the working directory
+'rm' - remove a file or directory
+'clear' - clear screen
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`
+`ls -a`
+`ls -l`
+`ls -lh`
+`ls -lah`
+`ls -t`
+`ls -Glp`
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`  - lists all files and directories in the current working directory
+`-a`  - lists all files and directories including hidden files
+`-l`  - lists long format (includes permissions) with file size
+`-lh`  - lists long format with readable file size
+`-lah`  - lists long format including hidden files with readable file size
+`-t`  - lists sorted by time & date
+`-Glp`  - excludes owner name, lists long format, and adds a '/' at the end of all directories
 
 ---
 
@@ -43,7 +55,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+'-r' - lists in reverse order
+'-R' - includes sub-directories
+'-d' - only lists directories
+'~' - lists home directory
+'-1' - displays each entry on its own line
 
 ---
 
@@ -51,7 +67,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> 'xargs' allows us to build an execution pipeline with standard inputs.
+> An example would be to use 'echo 'a b c' | xargs touch'
+> This
 
  
 

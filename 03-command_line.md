@@ -69,7 +69,7 @@ What does `xargs` do? Give an example of how to use it.
 
 > `xargs` allows us to build an execution pipeline with standard inputs.  
 > An example would be to use `echo 'a.txt b.txt c.txt' | xargs touch`
-> This would look like:
+> This would look like:  
 > ```echo 'a.txt b.txt c.txt' | xargs touch
 > ls
 > a.txt b.txt c.txt```

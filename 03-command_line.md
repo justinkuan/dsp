@@ -74,7 +74,7 @@ What does `xargs` do? Give an example of how to use it.
 > $ echo 'a.txt b.txt c.txt' | xargs touch
 > $ ls
 > a.txt  b.txt  c.txt
-```
+> ```
 
  
 

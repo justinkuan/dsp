@@ -93,11 +93,11 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >
 > P(identical twin | twin brother) = P(twin brother | identical twin) x P(identical twin) / P(twin brother)   
 > where P(twin brother | identical twin) = 1/2 (either boy-boy or girl-girl)  
->       P(twin brother) = P(twin brother | id. twin) x P(id. twin) + P(twin brother | frat. twin) x P(frat. twin)  
->                       = 1/2 x 1/300 + 1/4 x 1/125  
+> P(twin brother) = P(twin brother | id. twin) x P(id. twin) + P(twin brother | frat. twin) x P(frat. twin)  
+> $\qquad$$\qquad$$\qquad$= 1/2 x 1/300 + 1/4 x 1/125  
 >
 > So, P(identical twin | twin brother) = 1/2 x 1/300 / (1/2 x 1/300 + 1/4 x 1/125)  
->                                      = 5/11  
+> $\qquad$$\qquad$$\qquad$$\qquad$= 5/11  
 
 ---
 

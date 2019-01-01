@@ -7,7 +7,6 @@
 > Cohen's D for birth weight standard deviations **-0.089** standard deviation  
 > We find that effect of first babies on birthweight is similar to its effect on pregnancy length, small and almost negligible.
 
-> Code:
 ~~~~
 live = preg[preg.outcome == 1]
 firsts = live[live.birthord == 1]

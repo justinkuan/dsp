@@ -7,4 +7,17 @@
 
 > Plot the actual and biased distributions, and compute their means. As a starting place, you can use chap03ex.ipynb.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Actual mean of 1.024205155043831  
+>> Biased mean of 2.40367910064282  
+
+>> plot will be added later, code for plot is included below.
+
+~~~~
+# Exercise 3.1
+pmf_nsfg = thinkstats2.Pmf(f.numkdhh , label='observed')
+biased_pmf_nsfg = BiasPmf(pmf_nsfg , label='actual')
+
+thinkplot.PrePlot(2)
+thinkplot.Pmfs([pmf_nsfg, biased_pmf_nsfg])
+thinkplot.Show(xlabel='number of children', ylabel='PMF')
+~~~~
